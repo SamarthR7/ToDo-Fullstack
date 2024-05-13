@@ -1,0 +1,36 @@
+*{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.container {
+  text-align: center; /* Center all elements within the container */
+}
+
+.title {
+  margin-bottom: 20px; /* Add some space between the h1 and input/button */
+}
+
+.input-group { /* Create a new group for input and button */
+  display: flex;
+  justify-content: center; /* Center the input and button horizontally */
+}
+
+input[type="text"] {
+  margin-right: 10px; /* Add some spacing between input and button */
+}
+.toDo {
+  background-color: #c2bfbf;
+  margin-top: 20px;
+  padding: 10px 0px 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon{
+  font-size: 25px;
+}
+
+
